@@ -1,0 +1,196 @@
+body {
+    background-color: #CAF0F8;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #023E8A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077B6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.button:hover {
+    background-color: #0096C7;
+    transform: scale(1.05);
+}
+
+a.button:active {
+    background-color: #005F73;
+    transform: scale(0.98);
+}
+
+/* Base button style */
+.submit-button {
+    background-color: #0077B6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 125px;
+}
+
+/* Hover effect */
+.submit-button:hover {
+    background-color: #0096C7;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Active (pressed) effect */
+.submit-button:active {
+    background-color: #005F73;
+    transform: scale(0.98);
+}
+
+/* Basic input styling */
+input[type="text"], input[type="number"], input[type="password"], input[type="date"] {
+    background-color: #F9FAFB;
+    color: #0077B6;
+    border: 1px solid #B0BEC5;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Focus effect */
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="date"]:focus {
+    border-color: #0077B6;
+    box-shadow: 0px 0px 5px rgba(0, 119, 182, 0.3);
+}
+
+.main {
+    background-color: #F0F4F8;
+    color: #023E8A;
+    text-align: center;
+    margin: 100px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    width: 40%;
+}
+
+.outerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.innerMain {
+    background-color: none;
+}
+
+.mainForm {
+    background-color: none;
+    margin: 30px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #0077B6;
+    border-collapse: collapse;
+}
+
+.mainQuery {
+    text-align: center;
+}
+
+.innerQuery {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.accountInfo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row-reverse;
+}
+
+.mainTable {
+    background-color: #90E0EF;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainTable th {
+    background-color: #0077B6;
+    color: white;
+}
+
+.mainTable th, td, tr, th {
+    padding: 5px;
+}
+
+.mainTable table {
+    border-collapse: collapse;
+    border: 3px solid #0077B6;
+    border-radius: 15px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.outerMainTable {
+    padding: 0px 30px 0px 30px;
+}
+
+.container {
+    background-color: #F0F4F8;
+    padding: 0px;
+    margin: 30px 10px 10px 10px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.editNdelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+.editNdelete a {
+    font-size: 12px;
+}
+
+.container .message {
+    background-color: none;
+    text-align: center;
+    border-style: solid;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+}
